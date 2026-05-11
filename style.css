@@ -1,0 +1,146 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body{
+    font-family: Arial, sans-serif;
+    background-color: #edb4f1;
+    line-height: 1.6;
+}
+
+/* HEADER */
+header{
+    background-color: #b265bf;
+    color: Swhite;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 50px;
+}
+
+/* LOGO */
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* NAVIGATION */
+nav a{
+    color: rgb(75, 75, 75);
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 16px;
+}
+
+nav a:hover{
+    color: rgb(248, 219, 246);
+}
+
+/* HERO SECTION */
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 60px;
+    background-color: rgb(212, 152, 227);
+}
+
+/* HERO TEXT */
+.hero-text{
+    width: 50%;
+}
+
+.hero-text h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero-text p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* BUTTON */
+.hero-text button{
+    padding: 12px 25px;
+    background-color: rgb(232, 124, 165);
+    border: none;
+    color: rgb(104, 5, 137);
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero-text button:hover{
+    background-color: rgb(232, 153, 223);
+}
+
+/* HERO IMAGE */
+.hero-image img{
+    width: 500px;
+    border-radius: 10px;
+}
+
+/* FEATURES */
+.features{
+    display: flex;
+    justify-content: space-around;
+
+    padding: 50px;
+    background-color: #eeeeee;
+}
+
+/* FEATURE BOX */
+.feature-box{
+    background-color: white;
+    width: 30%;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.feature-box img{
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+.feature-box h2{
+    margin-bottom: 10px;
+}
+
+/* ABOUT SECTION */
+.about{
+    padding: 60px;
+    text-align: center;
+    background-color: white;
+}
+
+.about h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.about p{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.about img{
+    width: 400px;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+footer{
+    background-color: #e773e5;
+    color: rgb(67, 66, 66);
+    text-align: center;
+    padding: 20px;
+}
